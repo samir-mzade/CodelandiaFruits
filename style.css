@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+   text-decoration: none !important;
+}
+
+ul li{
+   list-style: none !important;
+}
+nav {
+    padding: 10px 35px !important;
+    box-shadow: 1px 4px 11px -6px rgba(0, 0, 0, 0.75);
+}
+nav h1 a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+nav h1 span {
+    color: red;
+}
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+nav .menu-list {
+    margin: 0;
+    padding: 0;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+nav .burger-menu{
+   display: none;
+}
+.main-page {
+    height: 100vh;
+    width: auto;
+    background-image: url(./img/carousel-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    position: relative;
+}
+.main-title {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.main-title h1 {
+   font-size: 50px;
+}
+.main-buttons{
+    margin-right: 100px;
+}
+.main-title .btn {
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    margin-right: 10px;
+ }
+ .about-page{
+    margin-top: 120px;
+    min-height: 500px;
+ }
+ .image-side img{
+    width: 450px;
+ }
+ .description-side div{
+    margin-bottom: 25px;
+ }
+ .description-list li{
+    list-style: none;
+ }
+
+ .description-items{
+    padding: 0;
+    margin-right: 50px;
+ }
+
+ .description-side .btn{
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    margin-right: 40px;
+ }
+
+ .line-1{
+
+    border: 1px solid green;
+    background-color: green;
+    width: 40px;
+    height: 2px;
+    margin: 0 auto;
+ }
+ .line-2{
+    border: 1px solid red;
+    background-color: red;
+    width: 70px;
+    height: 3px;
+    margin: 0 auto;
+ }
+ .services{
+    min-height: 600px;
+ }
+ .card{
+    box-shadow: 2px 1px 11px -7px rgba(0,0,0,0.75);
+    border: white !important;
+ }
+ .card img{
+    width: 90px;
+ }
+ .card .btn{
+    border-color: green;
+    border-radius: 50px;
+ }
+ .card .btn:hover{
+    background-color: green;
+    color: white;
+ }
+
+ #products .product-main-title h1{
+
+   font-weight: bold;
+   
+ }
+
+.products-card-list .cards{
+   cursor: pointer;
+ }
+
+ .products-card-list .cards:hover{
+   transform: scale(1.05);
+   transition: .3s;
+ }
+
+ .product-main-buttons .btn {
+   border-color: green;
+   color: green;
+ }
+
+ .product-main-buttons .btn:hover {
+      background-color: green;
+   color: white;
+ }
+
+ #products .products-title .card-info p{
+   color: green;
+ }
+
+ #products .products-title span{
+   text-decoration: line-through;
+ }
+
+
+
+ #products .products-title .card-buttons button:hover{
+color: green;
+transform: scale(1.1);
+transition: .3s   ;
+
+ }
+ #products .cards{
+   width: 100%;
+   border-radius: 5px;
+   box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.16);
+ }
+.products-button .btn{
+   border-radius: 50px;
+   padding: 10px 30px;
+}
+.visit-page .visit-page-main .visit-text{
+   padding: 80px 0;
+   color: #fff;
+}
+.visit-page .visit-page-main .btn{
+   border-radius: 50px;
+   padding: 10px 30px;
+}
+.client-card .card img{
+   border-radius: 50px;
+}
+.client-card .card {
+   position: relative;
+   cursor: pointer;
+   transition: .3s;
+ }
+.client-card .card i{
+  font-size: 60px;
+  position: absolute;
+  top: -30px;
+  color: green;
+}
+.client-card .card .sec-i{
+   font-size: 60px;
+   position: absolute;
+   top: -30px;
+  
+ }
+
+ .client-card .card:hover{
+   background-color: green;
+ }
+
+ .client-card .card:hover i{
+  color: red;
+ }
+ 
+
+.blog-card{
+   cursor: pointer;
+   background-color: rgb(237, 237, 237);
+}
+
+.blog-card h4{
+   font-size: 18px;
+}
+
+.blog-card-title{
+
+   padding: 15px;
+ }
+
+
+.blog-card-info{
+   padding: 15px;
+   text-align: left;
+ }
+
+ .blog-card-info i{
+   color: green;
+ }
+
+ .blog-card-img img{
+
+   width: 100%;
+ }
+
+
+
+ .footer {
+background-color: black;
+ }
+
+ 
+ .footer .container {
+   padding: 40px 10px;
+    }
+   
+    
+
+    .footer h1 a {
+      text-decoration: none;
+      color: green;
+      font-weight: bold;
+      font-size: 45px;
+  }
+     .footer h1 span {
+      color: red;
+  }
+
+  .footer p{
+      color: rgb(179, 177, 177);
+      font-size: 14px;
+  }
+
+  .footer a{
+   color: rgb(179, 177, 177);
+   transition: .2s;
+}
+.footer .footer-social i{
+   cursor: pointer;
+   border: 1px solid rgb(206, 204, 204);
+   color: rgb(179, 177, 177);
+   padding: 8px;
+   border-radius:50%;
+   transition: .3s;
+}
+.footer .footer-social i:hover{
+   background-color: rgb(206, 204, 204) ;
+   color: black;
+}
+.footer-list {
+   padding: 0;
+}
+
+.footer-list a:hover {
+   color: white;
+}
+.footer h1{
+   font-size: 25px;
+   color: white;
+   margin-bottom: 15px;
+}
+
+.footer .footer-input {
+   border: 1px solid rgb(206, 204, 204) ;
+   padding: 5px;
+   
+}
+
+.footer .footer-input input{
+   outline: none;
+   background: transparent;
+   border: none;
+   color: white;
+}
+
+.footer button{
+   border-radius: 0;
+   width: 70px;
+   margin-left: 15px;
+}
+.mini-footer{
+   background-color: black;
+}
+.mini-footer span{
+   color: white;
+}
